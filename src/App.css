@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Poppins:wght@200;300&display=swap');
+
+/* GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* APP.JSX............................................. */
+main {
+  vertical-align: center;
+  background: 	#2b032b;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+
+/* MODAL.JSX........................................... */
+.container{
+  width: 800px;
+  margin: 0 auto;
+  min-height: 60vh;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+}
+
+.left{
+  flex: 1;
+  padding: 50px;
+}
+
+.right{
+  flex: 2;
+  padding: 30px 16px 0 16px;
+  margin-bottom: 10px;
+/*   display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+/* CARD.JS.......................................... */
+.card{
+  border-radius: 4px;
+  padding: 16px 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+}
+
+.card div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card span{
+  padding: 5px;
+  background: lightgray;
+  font-weight: bold;
+  width: 20px;
+  height:20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
